@@ -1,0 +1,16 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.App-logo {
+  width: 10rem;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: #ced8ff;
+}
