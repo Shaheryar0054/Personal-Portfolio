@@ -10,13 +10,19 @@ export const Navbar = () => {
         <img src={logo} className="App-logo" alt="logo" />
         <nav className='menu'>
           <a href='/'><li>Home</li></a>
-          <a href='/About'><li>About</li></a>
-          <a href='/Techstack'><li>Tech Stack</li></a>
           <a href='/Projects'><li>Projects</li></a>
+          <a href='/Techstack'><li>Tech Stack</li></a>
+          <a href='/About'><li>About</li></a>
           <a href='/Contact'><li>Contact</li></a>
+          <a target='_blank' href='https://github.com/Shaheryar0054'>
           <img src={github} className="icon" alt="logo" />
+          </a>
+          {/* <a target='_blank' href='https://x.com/sharyar0310'>
           <img src={twiter} className="icon" alt="logo" />
+          </a> */}
+          <a target='_blank' href='https://www.linkedin.com/in/shaheryar-abid/'>
           <img src={linkedin} className="icon" alt="logo" />
+          </a>
         </nav>
         </header>
     </div>
