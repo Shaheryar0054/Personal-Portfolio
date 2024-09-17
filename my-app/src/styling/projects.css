@@ -23,8 +23,11 @@
 .projects-container p {
   font-size: 1.2rem;
   margin-bottom: 30px;
-  margin-left: -59rem;
   color: #42446e;
+}
+
+.built {
+  margin-left: -59rem;
 }
 
 /* Grid container for projects */

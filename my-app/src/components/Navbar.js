@@ -26,10 +26,10 @@ export const Navbar = () => {
             <Link to="contact" smooth={true} duration={500}>Contact</Link>
           </li>
         </ul>
-        <a target='blank' href='https://github.com/Shaheryar0054'>
+        <a target='_blank' href='https://github.com/Shaheryar0054'>
           <img src={github} className="icon" alt="GitHub" />
         </a>
-        <a target='blank' href='https://www.linkedin.com/in/shaheryar-abid/'>
+        <a target='_blank' href='https://www.linkedin.com/in/shaheryar-abid/'>
           <img src={linkedin} className="icon" alt="LinkedIn" />
         </a>
       </nav>

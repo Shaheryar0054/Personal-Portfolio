@@ -51,7 +51,7 @@ function Projects() {
   return (
     <div className="projects-container">
       <h2>Projects</h2>
-      <p>Things I’ve built so far</p>
+      <p className='built'>Things I’ve built so far</p>
       <div className="projects-grid">
         {projects.map((project, index) => (
           <ProjectCard
