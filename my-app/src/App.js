@@ -35,6 +35,7 @@ function App() {
     <div className="container">
       <Navbar/>
       <RouterProvider router= {router} />
+      <Projects />
     </div>
   );
 }

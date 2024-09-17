@@ -1,0 +1,90 @@
+/* Main container styling */
+.projects-container {
+  padding: 40px;
+  text-align: center;
+}
+
+/* Heading styling */
+.projects-container h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  margin-left: -61rem;
+  background: var(--Gradient-Heading, linear-gradient(90deg, #13B0F5 -2.06%, #E70FAA 100%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 70px;
+  letter-spacing: -1px;
+}
+
+.projects-container p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  margin-left: -59rem;
+  color: #42446e;
+}
+
+/* Grid container for projects */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+  gap: 20px; /* Space between grid items */
+  justify-items: center; /* Center the cards within the grid */
+  padding: 0 200px;
+}
+
+/* Individual project card styling */
+.project-card {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  padding: 20px;
+  text-align: left;
+  transition: transform 0.3s;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+}
+
+.project-image {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.project-description {
+  font-size: 1rem;
+  margin-bottom: 15px;
+  color: #666;
+}
+
+/* Styling for links */
+.project-links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.live-preview, .view-code {
+  padding: 10px 15px;
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+}
+
+.live-preview {
+  background-color: #13B0F5;
+}
+
+.view-code {
+  background-color: #E70FAA;
+}
+
+/* Hover effect for links */
+.live-preview:hover, .view-code:hover {
+  opacity: 0.8;
+}
