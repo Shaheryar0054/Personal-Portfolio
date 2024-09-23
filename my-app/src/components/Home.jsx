@@ -13,7 +13,7 @@ function Home() {
         <img src={profile} alt="Profile" />
       </div>
     </div>
-    <a href={resume} className='resume-button' target="_blank">
+    <a href={resume} className='resume-button' target="blank">
         Download Resume
       </a>
     </div>
